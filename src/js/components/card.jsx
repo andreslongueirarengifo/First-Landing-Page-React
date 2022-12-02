@@ -1,8 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-//inmport components
-import ButtonPage from './button.jsx';
 
 
 const CardPage = (promp)=> {
@@ -16,7 +15,7 @@ const CardPage = (promp)=> {
       </Card.Text>
     </Card.Body>
     <Card.Footer className='d-flex justify-content-center'>
-      <ButtonPage text="Find Out More!"/>
+    <Button variant="primary"><i class="fa-solid fa-cart-shopping"></i></Button>
     </Card.Footer>
   </Card>
   );
