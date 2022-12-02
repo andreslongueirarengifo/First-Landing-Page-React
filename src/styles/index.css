@@ -1,11 +1,13 @@
+
 .content-welcome{
     border-radius: 1rem;
     margin: 2rem;
-    background-color: rgba(0, 132, 255, 0.377);
+    background-color: rgba(158, 208, 255, 0.171);
     padding: 5rem;
 }
 
 .footer{
+    padding-top: 2rem;
     height: 7rem;
     width: 100%;
     text-align: center;

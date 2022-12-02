@@ -9,7 +9,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 const CardPage = ()=> {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '17rem' }} className="m-auto mb-5">
     <Card.Img variant="top" src={rigoImage} />
     <Card.Body className='text-center'>
       <Card.Title>Card title</Card.Title>
@@ -19,7 +19,7 @@ const CardPage = ()=> {
       </Card.Text>
     </Card.Body>
     <Card.Footer className='d-flex justify-content-center'>
-      <ButtonPage/>
+      <ButtonPage text="Find Out More!"/>
     </Card.Footer>
   </Card>
   );

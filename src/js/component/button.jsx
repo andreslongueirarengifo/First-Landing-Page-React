@@ -1,9 +1,9 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 
-const ButtonPage = ()=>{
+const ButtonPage = (prompt)=>{
     return(
-        <Button variant="primary">Primary</Button>
+        <Button variant="primary">{prompt.text}</Button>
     );
 }
 

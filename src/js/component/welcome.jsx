@@ -8,7 +8,7 @@ const WelcomePage = ()=>{
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim velit quo 
                 fuga voluptatum officiis ipsa ipsam dolorem quae delectus provident vitae, 
                 nam, cupiditate harum similique inventore consequuntur, laboriosam quis corporis!</p>
-            <ButtonPage/>
+            <ButtonPage text="Call to action!"/>
         </div>
     );
 }
