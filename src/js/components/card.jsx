@@ -4,18 +4,15 @@ import Card from 'react-bootstrap/Card';
 //inmport components
 import ButtonPage from './button.jsx';
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
-const CardPage = ()=> {
+const CardPage = (promp)=> {
   return (
     <Card style={{ width: '17rem' }} className="m-auto mb-5">
-    <Card.Img variant="top" src={rigoImage} />
+    <Card.Img variant="top" src={promp.item.url} />
     <Card.Body className='text-center'>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>{promp.item.title}</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in
-        to additional content. This content is a little bit longer.
+        {promp.item.price}
       </Card.Text>
     </Card.Body>
     <Card.Footer className='d-flex justify-content-center'>

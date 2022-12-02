@@ -1,4 +1,9 @@
-
+@media (min-width: 990px) {
+    .navbar-items{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
 .content-welcome{
     border-radius: 1rem;
     margin: 2rem;

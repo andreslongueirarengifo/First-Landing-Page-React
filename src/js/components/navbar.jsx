@@ -9,7 +9,7 @@ const NavbarPage=()=> {
       <Container bg="secondary">
         <Navbar.Brand href="#home">Start Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className="d-flex justify-content-end">
+          <Navbar.Collapse id="responsive-navbar-nav" className="navbar-items">
             <Nav>
               <Nav.Link href="#Home">
                 Home

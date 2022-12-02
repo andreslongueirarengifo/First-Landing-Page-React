@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 const ButtonPage = (prompt)=>{
     return(
-        <Button variant="primary">{prompt.text}</Button>
+        <Button variant="primary"><i class="fa-solid fa-cart-shopping"></i></Button>
     );
 }
 
